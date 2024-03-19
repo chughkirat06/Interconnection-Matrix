@@ -1,5 +1,5 @@
 <H1>Web Crawler</H1>
-This Python script web_crawler.py implements a simple web crawler that crawls a website starting from a given root URL. It extracts all internal links from the website and builds an interconnection matrix based on the links between web pages.
+This Python script, web_crawler.py, implements a simple web crawler that crawls a website starting from a given root URL. It extracts all internal links from the website and builds an interconnection matrix based on the links between web pages.
 
 <H2>Usage</H2>
 To use the web crawler:
@@ -14,19 +14,19 @@ To use the web crawler:
 8. The interconnection matrix will be saved to an Excel file named Interconnection_Matrix.xlsx in the repository directory.
 
 <H2>Customization</H2>
-You can customize the behavior of the web crawler by adjusting the following parameters:
+You can customize the behaviour of the web crawler by adjusting the following parameters:
 
-<B>root_url</B>: The root URL of the website to crawl. You can change this URL to crawl a different website.
-<B>max_iterations</B>: The maximum number of iterations for crawling. This parameter controls the depth of the crawl. Increase it for more comprehensive crawling.
-<B>excel_filename</B>: The filename for saving the interconnection matrix Excel file. You can change this filename if needed.
+<B>root_url</B>: The root URL of the website to crawl. You can change this URL to crawl a different website.<BR>
+<B>max_iterations</B>: The maximum number of iterations for crawling. This parameter controls the depth of the crawl. Increase it for more comprehensive crawling.<BR>
+<B>excel_filename</B>: The filename for saving the interconnection matrix Excel file. You can change this filename if needed.<BR>
 
 <H2>Requirements</H2>
 The following Python packages are required to run the web crawler:
 
-<B>pandas</B>: For data manipulation and Excel file handling.
-<B>requests</B>: For making HTTP requests.
-<B>beautifulsoup4</B>: For HTML parsing.
-<B>selenium</B>: For headless browsing with WebDriver.
+<B>pandas</B>: For data manipulation and Excel file handling.<BR>
+<B>requests</B>: For making HTTP requests.<BR>
+<B>beautifulsoup4</B>: For HTML parsing.<BR>
+<B>selenium</B>: For headless browsing with WebDriver.<BR>
 
 <H2>Note</H2>
 <UL>
